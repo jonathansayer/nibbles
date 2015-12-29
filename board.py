@@ -10,7 +10,7 @@ class Board(Canvas):
         self.parent = parent
         self.pack()
 
-class Example(Frame):
+class Test(Frame):
 
     def __init__(self, parent):
         Frame.__init__(self, parent)
@@ -20,7 +20,7 @@ class Example(Frame):
 
 def main():
     root= Tk()
-    app = Example(root)
+    app = Test(root)
     root.mainloop()
 
 if __name__ == "__main__":
